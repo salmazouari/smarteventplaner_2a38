@@ -21,8 +21,8 @@ QT_BEGIN_MOC_NAMESPACE
 QT_WARNING_PUSH
 QT_WARNING_DISABLE_DEPRECATED
 struct qt_meta_stringdata_MainWindow_t {
-    QByteArrayData data[48];
-    char stringdata0[1135];
+    QByteArrayData data[50];
+    char stringdata0[1195];
 };
 #define QT_MOC_LITERAL(idx, ofs, len) \
     Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
@@ -78,7 +78,9 @@ QT_MOC_LITERAL(43, 1018, 6), // "Cancel"
 QT_MOC_LITERAL(44, 1025, 16), // "on_pdf_5_clicked"
 QT_MOC_LITERAL(45, 1042, 22), // "on_recherche_5_clicked"
 QT_MOC_LITERAL(46, 1065, 32), // "on_pushButton_RECH_TRI_2_clicked"
-QT_MOC_LITERAL(47, 1098, 36) // "on_pushButton_STATISTIQUES_2_..."
+QT_MOC_LITERAL(47, 1098, 36), // "on_pushButton_STATISTIQUES_2_..."
+QT_MOC_LITERAL(48, 1135, 23), // "on_pushButton_6_clicked"
+QT_MOC_LITERAL(49, 1159, 35) // "on_pushButton_HISTORIQUES_2_c..."
 
     },
     "MainWindow\0setCenter\0\0addMarker\0"
@@ -114,7 +116,9 @@ QT_MOC_LITERAL(47, 1098, 36) // "on_pushButton_STATISTIQUES_2_..."
     "Headers\0bool&\0Cancel\0on_pdf_5_clicked\0"
     "on_recherche_5_clicked\0"
     "on_pushButton_RECH_TRI_2_clicked\0"
-    "on_pushButton_STATISTIQUES_2_clicked"
+    "on_pushButton_STATISTIQUES_2_clicked\0"
+    "on_pushButton_6_clicked\0"
+    "on_pushButton_HISTORIQUES_2_clicked"
 };
 #undef QT_MOC_LITERAL
 
@@ -124,7 +128,7 @@ static const uint qt_meta_data_MainWindow[] = {
        7,       // revision
        0,       // classname
        0,    0, // classinfo
-      37,   14, // methods
+      39,   14, // methods
        0,    0, // properties
        0,    0, // enums/sets
        0,    0, // constructors
@@ -132,45 +136,47 @@ static const uint qt_meta_data_MainWindow[] = {
        2,       // signalCount
 
  // signals: name, argc, parameters, tag, flags
-       1,    2,  199,    2, 0x06 /* Public */,
-       3,    2,  204,    2, 0x06 /* Public */,
+       1,    2,  209,    2, 0x06 /* Public */,
+       3,    2,  214,    2, 0x06 /* Public */,
 
  // slots: name, argc, parameters, tag, flags
-       4,    0,  209,    2, 0x08 /* Private */,
-       5,    1,  210,    2, 0x08 /* Private */,
-       6,    0,  213,    2, 0x08 /* Private */,
-       7,    0,  214,    2, 0x08 /* Private */,
-       8,    0,  215,    2, 0x08 /* Private */,
-       9,    0,  216,    2, 0x08 /* Private */,
-      10,    0,  217,    2, 0x08 /* Private */,
-      11,    0,  218,    2, 0x08 /* Private */,
-      12,    0,  219,    2, 0x08 /* Private */,
-      13,    0,  220,    2, 0x08 /* Private */,
-      14,    0,  221,    2, 0x08 /* Private */,
-      15,    0,  222,    2, 0x08 /* Private */,
-      16,    0,  223,    2, 0x08 /* Private */,
-      17,    0,  224,    2, 0x08 /* Private */,
-      18,    0,  225,    2, 0x08 /* Private */,
-      19,    0,  226,    2, 0x08 /* Private */,
-      20,    0,  227,    2, 0x08 /* Private */,
-      21,    1,  228,    2, 0x08 /* Private */,
-      23,    0,  231,    2, 0x08 /* Private */,
-      24,    0,  232,    2, 0x08 /* Private */,
-      25,    0,  233,    2, 0x08 /* Private */,
-      26,    0,  234,    2, 0x08 /* Private */,
-      27,    0,  235,    2, 0x08 /* Private */,
-      28,    0,  236,    2, 0x08 /* Private */,
-      29,    0,  237,    2, 0x08 /* Private */,
-      30,    0,  238,    2, 0x08 /* Private */,
-      31,    0,  239,    2, 0x08 /* Private */,
-      32,    0,  240,    2, 0x08 /* Private */,
-      33,    0,  241,    2, 0x08 /* Private */,
-      34,    0,  242,    2, 0x08 /* Private */,
-      35,    6,  243,    2, 0x08 /* Private */,
-      44,    0,  256,    2, 0x08 /* Private */,
-      45,    0,  257,    2, 0x08 /* Private */,
-      46,    0,  258,    2, 0x08 /* Private */,
-      47,    0,  259,    2, 0x08 /* Private */,
+       4,    0,  219,    2, 0x08 /* Private */,
+       5,    1,  220,    2, 0x08 /* Private */,
+       6,    0,  223,    2, 0x08 /* Private */,
+       7,    0,  224,    2, 0x08 /* Private */,
+       8,    0,  225,    2, 0x08 /* Private */,
+       9,    0,  226,    2, 0x08 /* Private */,
+      10,    0,  227,    2, 0x08 /* Private */,
+      11,    0,  228,    2, 0x08 /* Private */,
+      12,    0,  229,    2, 0x08 /* Private */,
+      13,    0,  230,    2, 0x08 /* Private */,
+      14,    0,  231,    2, 0x08 /* Private */,
+      15,    0,  232,    2, 0x08 /* Private */,
+      16,    0,  233,    2, 0x08 /* Private */,
+      17,    0,  234,    2, 0x08 /* Private */,
+      18,    0,  235,    2, 0x08 /* Private */,
+      19,    0,  236,    2, 0x08 /* Private */,
+      20,    0,  237,    2, 0x08 /* Private */,
+      21,    1,  238,    2, 0x08 /* Private */,
+      23,    0,  241,    2, 0x08 /* Private */,
+      24,    0,  242,    2, 0x08 /* Private */,
+      25,    0,  243,    2, 0x08 /* Private */,
+      26,    0,  244,    2, 0x08 /* Private */,
+      27,    0,  245,    2, 0x08 /* Private */,
+      28,    0,  246,    2, 0x08 /* Private */,
+      29,    0,  247,    2, 0x08 /* Private */,
+      30,    0,  248,    2, 0x08 /* Private */,
+      31,    0,  249,    2, 0x08 /* Private */,
+      32,    0,  250,    2, 0x08 /* Private */,
+      33,    0,  251,    2, 0x08 /* Private */,
+      34,    0,  252,    2, 0x08 /* Private */,
+      35,    6,  253,    2, 0x08 /* Private */,
+      44,    0,  266,    2, 0x08 /* Private */,
+      45,    0,  267,    2, 0x08 /* Private */,
+      46,    0,  268,    2, 0x08 /* Private */,
+      47,    0,  269,    2, 0x08 /* Private */,
+      48,    0,  270,    2, 0x08 /* Private */,
+      49,    0,  271,    2, 0x08 /* Private */,
 
  // signals: parameters
     QMetaType::Void, QMetaType::QVariant, QMetaType::QVariant,    2,    2,
@@ -212,6 +218,8 @@ static const uint qt_meta_data_MainWindow[] = {
     QMetaType::Void,
     QMetaType::Void,
     QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
 
        0        // eod
 };
@@ -229,7 +237,7 @@ void MainWindow::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, 
         case 4: _t->browse(); break;
         case 5: _t->on_close_clicked(); break;
         case 6: _t->on_bouton_tri_2_clicked(); break;
-        case 7: _t->on_bouton_chercher_clicked(); break;
+        //case 7: _t->on_bouton_chercher_clicked(); break;
         case 8: _t->on_pushButton_gestion_event_clicked(); break;
         case 9: _t->on_pushButton_HISTORIQUES_clicked(); break;
         case 10: _t->on_pushButton_RECH_TRI_clicked(); break;
@@ -241,7 +249,7 @@ void MainWindow::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, 
         case 16: _t->on_pushButton_retour_3_clicked(); break;
         case 17: _t->on_pushButton_retour_4_clicked(); break;
         case 18: _t->on_pushButton_retour_5_clicked(); break;
-        case 19: _t->on_recherche_textChanged((*reinterpret_cast< const QString(*)>(_a[1]))); break;
+        //case 19: _t->on_recherche_textChanged((*reinterpret_cast< const QString(*)>(_a[1]))); break;
         case 20: _t->on_pushButton_ajouter_ev_clicked(); break;
         case 21: _t->on_pushButton_Eliminer_ev_clicked(); break;
         case 22: _t->on_pushButton_liste_ev_clicked(); break;
@@ -259,6 +267,8 @@ void MainWindow::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, 
         case 34: _t->on_recherche_5_clicked(); break;
         case 35: _t->on_pushButton_RECH_TRI_2_clicked(); break;
         case 36: _t->on_pushButton_STATISTIQUES_2_clicked(); break;
+        case 37: _t->on_pushButton_6_clicked(); break;
+        case 38: _t->on_pushButton_HISTORIQUES_2_clicked(); break;
         default: ;
         }
     } else if (_c == QMetaObject::IndexOfMethod) {
@@ -305,13 +315,13 @@ int MainWindow::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
     if (_id < 0)
         return _id;
     if (_c == QMetaObject::InvokeMetaMethod) {
-        if (_id < 37)
+        if (_id < 39)
             qt_static_metacall(this, _c, _id, _a);
-        _id -= 37;
+        _id -= 39;
     } else if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
-        if (_id < 37)
+        if (_id < 39)
             *reinterpret_cast<int*>(_a[0]) = -1;
-        _id -= 37;
+        _id -= 39;
     }
     return _id;
 }

@@ -1114,10 +1114,6 @@ debug/mainwindow.o: ../jour_j/mainwindow.cpp ../jour_j/mainwindow.h \
 		../../1/5.9.9/mingw53_32/include/QtWidgets/qtabwidget.h \
 		../../1/5.9.9/mingw53_32/include/QtGui/qicon.h \
 		ui_mainwindow.h \
-		../../1/5.9.9/mingw53_32/include/QtCore/QVariant \
-		../../1/5.9.9/mingw53_32/include/QtWidgets/QAction \
-		../../1/5.9.9/mingw53_32/include/QtWidgets/qaction.h \
-		../../1/5.9.9/mingw53_32/include/QtWidgets/qactiongroup.h \
 		../../1/5.9.9/mingw53_32/include/QtWidgets/QApplication \
 		../../1/5.9.9/mingw53_32/include/QtWidgets/qapplication.h \
 		../../1/5.9.9/mingw53_32/include/QtCore/qcoreapplication.h \
@@ -1125,61 +1121,11 @@ debug/mainwindow.o: ../jour_j/mainwindow.cpp ../jour_j/mainwindow.h \
 		../../1/5.9.9/mingw53_32/include/QtWidgets/qdesktopwidget.h \
 		../../1/5.9.9/mingw53_32/include/QtGui/qguiapplication.h \
 		../../1/5.9.9/mingw53_32/include/QtGui/qinputmethod.h \
-		../../1/5.9.9/mingw53_32/include/QtWidgets/QButtonGroup \
-		../../1/5.9.9/mingw53_32/include/QtWidgets/qbuttongroup.h \
-		../../1/5.9.9/mingw53_32/include/QtWidgets/QCalendarWidget \
-		../../1/5.9.9/mingw53_32/include/QtWidgets/qcalendarwidget.h \
 		../../1/5.9.9/mingw53_32/include/QtWidgets/QDateEdit \
 		../../1/5.9.9/mingw53_32/include/QtWidgets/qdatetimeedit.h \
 		../../1/5.9.9/mingw53_32/include/QtWidgets/qabstractspinbox.h \
 		../../1/5.9.9/mingw53_32/include/QtGui/qvalidator.h \
 		../../1/5.9.9/mingw53_32/include/QtCore/qregularexpression.h \
-		../../1/5.9.9/mingw53_32/include/QtWidgets/QFrame \
-		../../1/5.9.9/mingw53_32/include/QtWidgets/qframe.h \
-		../../1/5.9.9/mingw53_32/include/QtWidgets/QHBoxLayout \
-		../../1/5.9.9/mingw53_32/include/QtWidgets/qboxlayout.h \
-		../../1/5.9.9/mingw53_32/include/QtWidgets/qlayout.h \
-		../../1/5.9.9/mingw53_32/include/QtWidgets/qlayoutitem.h \
-		../../1/5.9.9/mingw53_32/include/QtWidgets/qgridlayout.h \
-		../../1/5.9.9/mingw53_32/include/QtWidgets/QHeaderView \
-		../../1/5.9.9/mingw53_32/include/QtWidgets/qheaderview.h \
-		../../1/5.9.9/mingw53_32/include/QtWidgets/qabstractitemview.h \
-		../../1/5.9.9/mingw53_32/include/QtWidgets/qabstractscrollarea.h \
-		../../1/5.9.9/mingw53_32/include/QtCore/qitemselectionmodel.h \
-		../../1/5.9.9/mingw53_32/include/QtWidgets/qabstractitemdelegate.h \
-		../../1/5.9.9/mingw53_32/include/QtWidgets/qstyleoption.h \
-		../../1/5.9.9/mingw53_32/include/QtWidgets/qslider.h \
-		../../1/5.9.9/mingw53_32/include/QtWidgets/qabstractslider.h \
-		../../1/5.9.9/mingw53_32/include/QtWidgets/qstyle.h \
-		../../1/5.9.9/mingw53_32/include/QtWidgets/qtabbar.h \
-		../../1/5.9.9/mingw53_32/include/QtWidgets/qrubberband.h \
-		../../1/5.9.9/mingw53_32/include/QtWidgets/QLabel \
-		../../1/5.9.9/mingw53_32/include/QtWidgets/qlabel.h \
-		../../1/5.9.9/mingw53_32/include/QtWidgets/QLineEdit \
-		../../1/5.9.9/mingw53_32/include/QtWidgets/qlineedit.h \
-		../../1/5.9.9/mingw53_32/include/QtGui/qtextcursor.h \
-		../../1/5.9.9/mingw53_32/include/QtGui/qtextformat.h \
-		../../1/5.9.9/mingw53_32/include/QtGui/qpen.h \
-		../../1/5.9.9/mingw53_32/include/QtGui/qtextoption.h \
-		../../1/5.9.9/mingw53_32/include/QtWidgets/QPushButton \
-		../../1/5.9.9/mingw53_32/include/QtWidgets/qpushbutton.h \
-		../../1/5.9.9/mingw53_32/include/QtWidgets/qabstractbutton.h \
-		../../1/5.9.9/mingw53_32/include/QtWidgets/QRadioButton \
-		../../1/5.9.9/mingw53_32/include/QtWidgets/qradiobutton.h \
-		../../1/5.9.9/mingw53_32/include/QtWidgets/QScrollBar \
-		../../1/5.9.9/mingw53_32/include/QtWidgets/qscrollbar.h \
-		../../1/5.9.9/mingw53_32/include/QtWidgets/QStackedWidget \
-		../../1/5.9.9/mingw53_32/include/QtWidgets/qstackedwidget.h \
-		../../1/5.9.9/mingw53_32/include/QtWidgets/QTableView \
-		../../1/5.9.9/mingw53_32/include/QtWidgets/qtableview.h \
-		../../1/5.9.9/mingw53_32/include/QtWidgets/QTableWidget \
-		../../1/5.9.9/mingw53_32/include/QtWidgets/qtablewidget.h \
-		../../1/5.9.9/mingw53_32/include/QtWidgets/QTreeWidget \
-		../../1/5.9.9/mingw53_32/include/QtWidgets/qtreewidget.h \
-		../../1/5.9.9/mingw53_32/include/QtWidgets/qtreeview.h \
-		../../1/5.9.9/mingw53_32/include/QtWidgets/qtreewidgetitemiterator.h \
-		../../1/5.9.9/mingw53_32/include/QtWidgets/QVBoxLayout \
-		../../1/5.9.9/mingw53_32/include/QtWidgets/QWidget \
 		../../1/5.9.9/mingw53_32/include/QtWidgets/QDialog \
 		../../1/5.9.9/mingw53_32/include/QtSql/QtSql \
 		../../1/5.9.9/mingw53_32/include/QtSql/QtSqlDepends \
@@ -1223,6 +1169,7 @@ debug/mainwindow.o: ../jour_j/mainwindow.cpp ../jour_j/mainwindow.h \
 		../../1/5.9.9/mingw53_32/include/QtCore/qhistorystate.h \
 		../../1/5.9.9/mingw53_32/include/QtCore/qidentityproxymodel.h \
 		../../1/5.9.9/mingw53_32/include/QtCore/qisenum.h \
+		../../1/5.9.9/mingw53_32/include/QtCore/qitemselectionmodel.h \
 		../../1/5.9.9/mingw53_32/include/QtCore/qjsonarray.h \
 		../../1/5.9.9/mingw53_32/include/QtCore/qjsonvalue.h \
 		../../1/5.9.9/mingw53_32/include/QtCore/qjsondocument.h \
@@ -1294,13 +1241,24 @@ debug/mainwindow.o: ../jour_j/mainwindow.cpp ../jour_j/mainwindow.h \
 		../../1/5.9.9/mingw53_32/include/QtSql/qsqlrecord.h \
 		../../1/5.9.9/mingw53_32/include/QtSql/qsqlrelationaldelegate.h \
 		../../1/5.9.9/mingw53_32/include/QtWidgets/qitemdelegate.h \
+		../../1/5.9.9/mingw53_32/include/QtWidgets/qabstractitemdelegate.h \
+		../../1/5.9.9/mingw53_32/include/QtWidgets/qstyleoption.h \
+		../../1/5.9.9/mingw53_32/include/QtWidgets/qslider.h \
+		../../1/5.9.9/mingw53_32/include/QtWidgets/qabstractslider.h \
+		../../1/5.9.9/mingw53_32/include/QtWidgets/qstyle.h \
+		../../1/5.9.9/mingw53_32/include/QtWidgets/qtabbar.h \
+		../../1/5.9.9/mingw53_32/include/QtWidgets/qrubberband.h \
+		../../1/5.9.9/mingw53_32/include/QtWidgets/qframe.h \
 		../../1/5.9.9/mingw53_32/include/QtWidgets/qlistview.h \
+		../../1/5.9.9/mingw53_32/include/QtWidgets/qabstractitemview.h \
+		../../1/5.9.9/mingw53_32/include/QtWidgets/qabstractscrollarea.h \
 		../../1/5.9.9/mingw53_32/include/QtWidgets/qcombobox.h \
 		../../1/5.9.9/mingw53_32/include/QtSql/qsqlrelationaltablemodel.h \
 		../../1/5.9.9/mingw53_32/include/QtSql/qsqltablemodel.h \
 		../../1/5.9.9/mingw53_32/include/QtSql/qsqlresult.h \
 		../../1/5.9.9/mingw53_32/include/QtSql/qtsqlversion.h \
 		../../1/5.9.9/mingw53_32/include/QtSql/QSqlDatabase \
+		../../1/5.9.9/mingw53_32/include/QtCore/QVariant \
 		../../1/5.9.9/mingw53_32/include/QtQuick/QQuickItem \
 		../../1/5.9.9/mingw53_32/include/QtQuick/qquickitem.h \
 		../../1/5.9.9/mingw53_32/include/QtQuick/qtquickglobal.h \

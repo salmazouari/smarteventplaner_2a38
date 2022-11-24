@@ -8,10 +8,11 @@ class Local
      QString rech;
     QString NOM_LO,TYPE_LO;
     int IDENTIFIANT_LO;
+    QString datedispo;
 public:
     QSqlQueryModel* rechercher_local(QString rech);
     Local(){}
-    Local(int, QString,QString);
+    Local(int, QString,QString,QString);
     QString getnom_lo(){return NOM_LO;}
     QString gettype_lo(){return TYPE_LO;}
 
@@ -28,6 +29,7 @@ public:
     QSqlQueryModel * afficher_local_tri_nom();
     QSqlQueryModel * afficher_local_tri_id();
     QSqlQueryModel * afficher_local_chercher(QString rech);
+    QSqlQueryModel * afficher_local_Calendrier(QString rech);
 
    QString  combo;
 

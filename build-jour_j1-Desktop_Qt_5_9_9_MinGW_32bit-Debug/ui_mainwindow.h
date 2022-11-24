@@ -156,6 +156,13 @@ public:
     QLineEdit *lineEdit_TYPE_LO;
     QLineEdit *lineEdit_ID_LO;
     QPushButton *pushButton_ajouter_vrai_2;
+    QLabel *label_nom_ev_49;
+    QDateEdit *dateEdit;
+    QWidget *page_255;
+    QDateEdit *dateEdit_2;
+    QPushButton *pushButton_6;
+    QTableView *tableViewCal;
+    QCalendarWidget *calendarWidget_17;
     QWidget *page_12;
     QLabel *label_4;
     QLineEdit *lineEdit_4;
@@ -260,6 +267,7 @@ public:
     QPushButton *pushButton_liste_ev_5;
     QWidget *page_29;
     WebAxWidget *webbrowser;
+    QLabel *label_68;
     QWidget *page_30;
     QLineEdit *mail_pass;
     QLineEdit *rcpt;
@@ -7859,7 +7867,48 @@ public:
 "	color: black; \n"
 "\n"
 "}"));
+        label_nom_ev_49 = new QLabel(page_11);
+        label_nom_ev_49->setObjectName(QStringLiteral("label_nom_ev_49"));
+        label_nom_ev_49->setGeometry(QRect(30, 440, 231, 41));
+        label_nom_ev_49->setStyleSheet(QLatin1String("/*-----QLabel-----*/\n"
+"QLabel\n"
+"{\n"
+"background-color: qlineargradient(spread:pad, x1:0, y1:0.511, x2:1, y2:0.511, stop:0 rgba(0, 172, 149, 255),stop:0.995192 rgba(0,0,0,0));\n"
+"\n"
+"\n"
+"\n"
+"	color: #ffffff;\n"
+"	font-size: 13px;\n"
+"	font-weight: bold;\n"
+"	border: 5px;\n"
+"	border-radius:10px;\n"
+"	padding: 5px;\n"
+"\n"
+"}"));
+        dateEdit = new QDateEdit(page_11);
+        dateEdit->setObjectName(QStringLiteral("dateEdit"));
+        dateEdit->setGeometry(QRect(200, 450, 221, 22));
+        dateEdit->setStyleSheet(QStringLiteral("background-color:white;"));
         stackedWidget->addWidget(page_11);
+        page_255 = new QWidget();
+        page_255->setObjectName(QStringLiteral("page_255"));
+        dateEdit_2 = new QDateEdit(page_255);
+        dateEdit_2->setObjectName(QStringLiteral("dateEdit_2"));
+        dateEdit_2->setGeometry(QRect(240, 470, 141, 22));
+        dateEdit_2->setStyleSheet(QStringLiteral("background-color:grey;"));
+        pushButton_6 = new QPushButton(page_255);
+        pushButton_6->setObjectName(QStringLiteral("pushButton_6"));
+        pushButton_6->setGeometry(QRect(130, 370, 93, 28));
+        pushButton_6->setStyleSheet(QStringLiteral("background-color:grey;"));
+        tableViewCal = new QTableView(page_255);
+        tableViewCal->setObjectName(QStringLiteral("tableViewCal"));
+        tableViewCal->setGeometry(QRect(390, 60, 471, 351));
+        tableViewCal->setStyleSheet(QStringLiteral("background-color:grey;"));
+        calendarWidget_17 = new QCalendarWidget(page_255);
+        calendarWidget_17->setObjectName(QStringLiteral("calendarWidget_17"));
+        calendarWidget_17->setGeometry(QRect(40, 60, 304, 218));
+        calendarWidget_17->setStyleSheet(QStringLiteral("background-color:grey;"));
+        stackedWidget->addWidget(page_255);
         page_12 = new QWidget();
         page_12->setObjectName(QStringLiteral("page_12"));
         label_4 = new QLabel(page_12);
@@ -9462,7 +9511,13 @@ public:
         webbrowser->setControl(QStringLiteral("{8856F961-340A-11D0-A96B-00C04FD705A2}"));
         webbrowser->setObjectName(QStringLiteral("webbrowser"));
         webbrowser->setProperty("focusPolicy", QVariant::fromValue(Qt::StrongFocus));
-        webbrowser->setProperty("geometry", QVariant(QRect(60, 40, 691, 461)));
+        webbrowser->setProperty("geometry", QVariant(QRect(10, 80, 881, 421)));
+        label_68 = new QLabel(page_29);
+        label_68->setObjectName(QStringLiteral("label_68"));
+        label_68->setGeometry(QRect(290, 20, 281, 31));
+        label_68->setStyleSheet(QLatin1String("color:rgb(255, 255, 255);\n"
+"text-decoration: underline;\n"
+"font: 20pt \"MV Boli\";"));
         stackedWidget->addWidget(page_29);
         page_30 = new QWidget();
         page_30->setObjectName(QStringLiteral("page_30"));
@@ -97592,7 +97647,7 @@ public:
 
         retranslateUi(MainWindow);
 
-        stackedWidget->setCurrentIndex(6);
+        stackedWidget->setCurrentIndex(14);
         stackedWidget_2->setCurrentIndex(1);
         stackedWidget_3->setCurrentIndex(0);
         stackedWidget_4->setCurrentIndex(1);
@@ -97826,6 +97881,8 @@ public:
         lineEdit_TYPE_LO->setText(QString());
         lineEdit_ID_LO->setText(QString());
         pushButton_ajouter_vrai_2->setText(QApplication::translate("MainWindow", "AJOUTER", Q_NULLPTR));
+        label_nom_ev_49->setText(QApplication::translate("MainWindow", "Date Disponiblilite", Q_NULLPTR));
+        pushButton_6->setText(QApplication::translate("MainWindow", "Rechercher", Q_NULLPTR));
         label_4->setText(QApplication::translate("MainWindow", "Taper l'identifiant du local a supprimer :", Q_NULLPTR));
         lineEdit_4->setText(QString());
         pushButton_supprimer_vrai_2->setText(QApplication::translate("MainWindow", "SUPPRIMER", Q_NULLPTR));
@@ -97909,6 +97966,7 @@ public:
         pushButton_STATISTIQUES_3->setText(QApplication::translate("MainWindow", "           STATISTIQUES", Q_NULLPTR));
         pushButton_ajouter_ev_3->setText(QApplication::translate("MainWindow", "AJOUTER UN employer", Q_NULLPTR));
         pushButton_liste_ev_5->setText(QApplication::translate("MainWindow", "LISTE DES Employes", Q_NULLPTR));
+        label_68->setText(QApplication::translate("MainWindow", "                   FIND THE LOCATION", Q_NULLPTR));
         mail_pass->setPlaceholderText(QApplication::translate("MainWindow", "your mail password", Q_NULLPTR));
         rcpt->setPlaceholderText(QApplication::translate("MainWindow", "recipient", Q_NULLPTR));
         subject->setPlaceholderText(QApplication::translate("MainWindow", "subject", Q_NULLPTR));

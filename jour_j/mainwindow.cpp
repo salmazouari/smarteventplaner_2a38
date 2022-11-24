@@ -239,13 +239,13 @@ void MainWindow::on_pushButton_ajouter_ev_2_clicked()
 
 void MainWindow::on_pushButton_Eliminer_ev_2_clicked()
 {
-    ui->stackedWidget->setCurrentIndex(8);
+    ui->stackedWidget->setCurrentIndex(9);
 
 }
 
 void MainWindow::on_pushButton_liste_ev_2_clicked()
 {
-    ui->stackedWidget->setCurrentIndex(9);
+    ui->stackedWidget->setCurrentIndex(10);
 }
 
 void MainWindow::on_pushButton_ajouter_vrai_2_clicked()
@@ -254,7 +254,8 @@ void MainWindow::on_pushButton_ajouter_vrai_2_clicked()
     int IDENTIFIANT_LO=ui->lineEdit_ID_LO->text().toInt();
     QString TYPE_LO=ui->lineEdit_TYPE_LO->text();
     QString NOM_LO=ui->lineEdit_NOM_LO->text();
- Local l(IDENTIFIANT_LO,TYPE_LO,NOM_LO);
+    QString dateDispo=ui->dateEdit->text();
+ Local l(IDENTIFIANT_LO,TYPE_LO,NOM_LO,dateDispo);
  bool test=l.ajouter_lo();
 
  if(test)
@@ -293,7 +294,7 @@ void MainWindow::on_pushButton_Calendrier_2_clicked()
 {
 
 
-     ui->stackedWidget->setCurrentIndex(13);
+     ui->stackedWidget->setCurrentIndex(14);
 
 }
 
@@ -591,10 +592,21 @@ void MainWindow::on_recherche_5_clicked()
 
 void MainWindow::on_pushButton_RECH_TRI_2_clicked()
 {
-     ui->stackedWidget->setCurrentIndex(10);
+     ui->stackedWidget->setCurrentIndex(11);
 }
 
 void MainWindow::on_pushButton_STATISTIQUES_2_clicked()
 {
       ui->stackedWidget->setCurrentIndex(15);
+}
+
+void MainWindow::on_pushButton_6_clicked()
+{
+    ui->tableViewCal->setModel(local.afficher_local_Calendrier(ui->calendarWidget_17->selectedDate().toString("dd/MM/yyyy")));
+    qDebug()<<ui->calendarWidget_17->selectedDate().toString("dd/MM/yyyy");
+}
+
+void MainWindow::on_pushButton_HISTORIQUES_2_clicked()
+{
+        ui->stackedWidget->setCurrentIndex(8);
 }

@@ -94,6 +94,10 @@ private slots:
 
     void on_pushButton_STATISTIQUES_2_clicked();
 
+    void on_pushButton_6_clicked();
+
+    void on_pushButton_HISTORIQUES_2_clicked();
+
 private:
     QStringList files;
     Ui::MainWindow *ui;
